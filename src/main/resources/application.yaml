@@ -1,0 +1,10 @@
+spring:
+  application:
+    name: k8sdemo
+  cloud:
+    kubernetes:
+      reload:
+        enabled: true
+      config:
+        sources:
+          - name: ${spring.application.name}
