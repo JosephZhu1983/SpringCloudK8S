@@ -12,11 +12,9 @@
 	<artifactId>springcloudk8sdemo</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>springcloudk8sdemo</name>
-	<description>Demo project for Spring Boot</description>
-
 
 	<properties>
-		<java.version>1.11</java.version>
+		<java.version>11</java.version>
 	</properties>
 
 	<dependencies>
@@ -87,6 +85,5 @@
 			</dependency>
 		</dependencies>
 	</dependencyManagement>
-
 
 </project>
