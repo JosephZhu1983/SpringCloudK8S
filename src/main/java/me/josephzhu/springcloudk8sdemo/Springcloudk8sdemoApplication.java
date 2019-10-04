@@ -41,5 +41,4 @@ public class Springcloudk8sdemoApplication {
 	RestTemplate restTemplate() {
 		return new RestTemplate();
 	}
-
 }
