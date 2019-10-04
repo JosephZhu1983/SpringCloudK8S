@@ -22,6 +22,6 @@ public class TestClient {
     public String client() throws UnknownHostException {
         String ip = InetAddress.getLocalHost().getHostAddress();
         String response = restTemplate.getForObject("http://"+testConfig.getServiceName()+"/", String.class);
-        return String.format("%s ->> %s", ip, response);
+        return String.format("%s ->>>> %s", ip, response);
     }
 }
